@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokantaTanitim", "LokantaUygulaması\LokantaTanitim.csproj", "{5C04E1D1-9C38-42EC-872A-4142C6BA60AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokantaWCFService", "LokantaWCFService\LokantaWCFService.csproj", "{94A4A9CC-D35E-4FDF-BCAD-190CF6D3E447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokantaApi", "LokantaApi\LokantaApi.csproj", "{E3A122D8-A1D4-4A8B-BDF8-94E647518A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokantaAdmin", "LokantaAdmin\LokantaAdmin.csproj", "{36B379CB-C630-4B9B-92CA-541A1014470F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokantaKullaniciAdmin", "LokantaKullaniciAdmin\LokantaKullaniciAdmin.csproj", "{04F68C64-B75A-49EF-B94C-5BFDD607742F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{70D64BB3-26B2-4956-93AB-62FABA70E42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8D6C73B0-EF8F-4468-AA7D-3C128C407BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C04E1D1-9C38-42EC-872A-4142C6BA60AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C04E1D1-9C38-42EC-872A-4142C6BA60AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C04E1D1-9C38-42EC-872A-4142C6BA60AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C04E1D1-9C38-42EC-872A-4142C6BA60AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A4A9CC-D35E-4FDF-BCAD-190CF6D3E447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A4A9CC-D35E-4FDF-BCAD-190CF6D3E447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A4A9CC-D35E-4FDF-BCAD-190CF6D3E447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A4A9CC-D35E-4FDF-BCAD-190CF6D3E447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A122D8-A1D4-4A8B-BDF8-94E647518A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A122D8-A1D4-4A8B-BDF8-94E647518A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A122D8-A1D4-4A8B-BDF8-94E647518A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A122D8-A1D4-4A8B-BDF8-94E647518A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B379CB-C630-4B9B-92CA-541A1014470F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B379CB-C630-4B9B-92CA-541A1014470F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B379CB-C630-4B9B-92CA-541A1014470F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B379CB-C630-4B9B-92CA-541A1014470F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F68C64-B75A-49EF-B94C-5BFDD607742F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F68C64-B75A-49EF-B94C-5BFDD607742F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F68C64-B75A-49EF-B94C-5BFDD607742F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F68C64-B75A-49EF-B94C-5BFDD607742F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D64BB3-26B2-4956-93AB-62FABA70E42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D64BB3-26B2-4956-93AB-62FABA70E42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D64BB3-26B2-4956-93AB-62FABA70E42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D64BB3-26B2-4956-93AB-62FABA70E42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6C73B0-EF8F-4468-AA7D-3C128C407BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6C73B0-EF8F-4468-AA7D-3C128C407BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6C73B0-EF8F-4468-AA7D-3C128C407BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6C73B0-EF8F-4468-AA7D-3C128C407BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
