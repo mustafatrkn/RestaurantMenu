@@ -119,8 +119,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Duyurular.cs" />
+    <Compile Include="Model\Kullanici.cs" />
+    <Compile Include="Model\Lokantalar.cs" />
+    <Compile Include="Model\Masa.cs" />
+    <Compile Include="Model\Menuler.cs" />
+    <Compile Include="Model\Referanslar.cs" />
+    <Compile Include="Model\SicakIcecekler.cs" />
+    <Compile Include="Model\SogukIcecek.cs" />
+    <Compile Include="Model\Tatilar.cs" />
+    <Compile Include="Model\Yiyecekler.cs" />
+    <Compile Include="Model\İstatistik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

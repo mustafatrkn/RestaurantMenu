@@ -7,5 +7,9 @@ namespace DAL.Model
 {
     public class SicakIcecekler
     {
+        public int SicakIcecekID {get;set;}
+        public string SicakIcecek { get; set; }
+        public double SicakIcecekFiyat { get; set; }
+
     }
 }

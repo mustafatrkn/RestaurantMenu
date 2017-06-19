@@ -5,7 +5,7 @@ using System.Web;
 
 namespace DAL.Model
 {
-    public class Kullanıcı
+    public class Kullanici
     {
         public int KullaniciID { get; set; }
         public string KullaniciIsim { set; get; }

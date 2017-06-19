@@ -9,7 +9,7 @@ namespace DAL.Model
     {
         public int ReferansID { get; set; }
         public string ResferansAdi { get; set; }
-        public string ReferansTanıtımı { get; set; }
+        public string ReferansTanitimi { get; set; }
         public string ReferansResim {get;set;}
     }
 }

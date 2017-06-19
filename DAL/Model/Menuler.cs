@@ -5,7 +5,12 @@ using System.Web;
 
 namespace DAL.Model
 {
-    public class Menüler
+    public class Menuler
     {
+        public int MenuID { get; set; }
+        public string MenuAdi { get; set; }
+        public string MenuIcerik{ get;set;}
+
+        public double MenuFiyat { get; set; }
     }
 }

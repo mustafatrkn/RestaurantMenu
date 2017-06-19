@@ -9,6 +9,6 @@ namespace DAL.Model
     {
         public int YiyecekID { get; set; }
         public int YiyecekAdi {get;set;}
-        public double Fiyat { get; set;}
+        public double YiyecekFiyat { get; set;}
     }
 }
