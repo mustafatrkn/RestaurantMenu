@@ -116,9 +116,13 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbCont\LokantaContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Duyurular.cs" />
     <Compile Include="Model\Kullanici.cs" />
     <Compile Include="Model\Lokantalar.cs" />
@@ -129,7 +133,7 @@
     <Compile Include="Model\SogukIcecek.cs" />
     <Compile Include="Model\Tatilar.cs" />
     <Compile Include="Model\Yiyecekler.cs" />
-    <Compile Include="Model\İstatistik.cs" />
+    <Compile Include="Model\Istatistik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

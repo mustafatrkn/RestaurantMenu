@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
 namespace DAL.Model
 {
-    public class İstatistik
-    {
+    public class Istatistik
+    {   [Key]
         public int İstatistikID { get; set; }
         public int GunlukHasilat { get; set; }
         public int AylikHasilat { get; set; }
@@ -19,10 +20,11 @@ namespace DAL.Model
         public string EnCokTercihEdilenSicakİcecek { get; set; }
         public string EnCokTercihEdilenTatli{ get; set; }
         public string EnCokTercihEdilenYiyecek{ get; set; }
-        public string EnCokTercihEdilenMenu{ get; set; }
-
-        public virtual Lokantalar lokanta { get; set; }
+        public string EnCokTercihEdilenMenu{ get; set;}
 
 
+        public virtual Lokantalar lokanta{get; set;}
+
+       
     }
 }
