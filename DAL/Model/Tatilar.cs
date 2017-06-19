@@ -10,5 +10,8 @@ namespace DAL.Model
         public int TatliID { get; set; }
         public string TatliAdi { get; set; }
         public double TatliFiyat { get; set; }
+
+        public virtual Masa masa { get; set; }
+        public virtual Lokantalar lokanta { get; set; }
     }
 }

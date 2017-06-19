@@ -10,6 +10,8 @@ namespace DAL.Model
         public int SicakIcecekID {get;set;}
         public string SicakIcecek { get; set; }
         public double SicakIcecekFiyat { get; set; }
+        public virtual Masa masa { get; set; }
+        public virtual Lokantalar lokanta { get; set; }
 
     }
 }

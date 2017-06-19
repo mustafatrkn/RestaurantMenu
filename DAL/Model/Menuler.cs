@@ -9,8 +9,12 @@ namespace DAL.Model
     {
         public int MenuID { get; set; }
         public string MenuAdi { get; set; }
-        public string MenuIcerik{ get;set;}
-
+        public string MenuIcerik { get; set; }
         public double MenuFiyat { get; set; }
+
+        public virtual Masa masa { get; set; }
+        public virtual Lokantalar lokanta {get;set;}
+
+
     }
 }

@@ -16,6 +16,8 @@ namespace DAL.Model
         public virtual List<Yiyecekler> Yiyecekler { get; set; }
         public virtual List<Menuler> Menuler {get;set;}
 
+        public virtual Lokantalar lokanta { get; set; }
+
 
     }
 }

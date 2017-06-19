@@ -23,5 +23,8 @@ namespace DAL.Model
         public virtual List<Menuler> Menuler {get;set;}
         public virtual Kullanici Kullanici { get; set;}
         public virtual List<Masa> Masalar { get;set;}
+        public virtual İstatistik istatistik { get; set; }
+
+
     }
 }

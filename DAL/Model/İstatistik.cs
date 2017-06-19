@@ -23,5 +23,6 @@ namespace DAL.Model
 
         public virtual Lokantalar lokanta { get; set; }
 
+
     }
 }
