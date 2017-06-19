@@ -10,5 +10,7 @@ namespace DAL.Model
         public int YiyecekID { get; set; }
         public int YiyecekAdi {get;set;}
         public double YiyecekFiyat { get; set;}
+        public virtual Masa masa { get; set; }
+        public virtual Lokantalar lokanta {get;set;}
     }
 }
