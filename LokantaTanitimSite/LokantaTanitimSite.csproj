@@ -202,6 +202,7 @@
     <Content Include="Scripts\js\jquery.js" />
     <Content Include="Scripts\js\parallax.js" />
     <Content Include="Scripts\js\wow.min.js" />
+    <Content Include="Scripts\Mayki.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
