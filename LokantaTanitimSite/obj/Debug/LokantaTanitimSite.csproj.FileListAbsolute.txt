@@ -50,3 +50,4 @@ C:\LokantaUygulaması\LokantaTanitimSite\bin\Antlr3.Runtime.pdb
 C:\LokantaUygulaması\LokantaTanitimSite\bin\Newtonsoft.Json.xml
 C:\LokantaUygulaması\LokantaTanitimSite\obj\Debug\LokantaTanitimSite.dll
 C:\LokantaUygulaması\LokantaTanitimSite\obj\Debug\LokantaTanitimSite.pdb
+C:\LokantaUygulaması\LokantaTanitimSite\obj\Debug\LokantaTanitimSite.csprojResolveAssemblyReference.cache
