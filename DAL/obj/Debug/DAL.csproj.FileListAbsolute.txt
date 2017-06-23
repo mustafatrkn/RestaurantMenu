@@ -68,3 +68,5 @@ C:\LokantaUygulaması\DAL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform
 C:\LokantaUygulaması\DAL\obj\Debug\DAL.dll
 C:\LokantaUygulaması\DAL\obj\Debug\DAL.pdb
 C:\LokantaUygulaması\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\LokantaUygulaması\DAL\obj\Debug\DAL.Migrations.asdasdad.resources
+C:\LokantaUygulaması\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache

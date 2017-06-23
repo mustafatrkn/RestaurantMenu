@@ -122,6 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbCont\LokantaContext.cs" />
+    <Compile Include="Migrations\201706230730388_asdasdad.cs" />
+    <Compile Include="Migrations\201706230730388_asdasdad.Designer.cs">
+      <DependentUpon>201706230730388_asdasdad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Duyurular.cs" />
     <Compile Include="Model\Kullanici.cs" />
@@ -136,7 +140,11 @@
     <Compile Include="Model\Istatistik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706230730388_asdasdad.resx">
+      <DependentUpon>201706230730388_asdasdad.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

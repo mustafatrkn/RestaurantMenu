@@ -1,5 +1,6 @@
 namespace DAL.Migrations
 {
+    using DbCont;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -9,7 +10,12 @@ namespace DAL.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+           
+            //AutomaticMigrationsEnabled = false;
+
+            //tablolarda veri varken güncelleme yapmak için     
+           // AutomaticMigrationDataLossAllowed = true;
+            ContextKey = "DAL.DbCont.LokantaContext";
         }
 
         protected override void Seed(DAL.DbCont.LokantaContext context)

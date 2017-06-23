@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using DAL.Model;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using DAL.Migrations;
 
 namespace DAL.DbCont
 {
@@ -13,6 +14,7 @@ namespace DAL.DbCont
         public LokantaContext()
         {
             Database.Connection.ConnectionString = "server=.;database=LokantaUygulama;Trusted_Connection=true";
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<LokantaContext, Configuration>("LokantaContext"));
         }
 
         public DbSet<Duyurular> Duyurular {get;set;}

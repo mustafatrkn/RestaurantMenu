@@ -11,5 +11,6 @@ namespace DAL.Model
         public int DuyuruID { get; set; }
         public string DuyuruBaslik { get; set; }
         public string Duyuruİcerik {get;set;}
+        public string DuyuruResim { get; set;}
     }
 }
